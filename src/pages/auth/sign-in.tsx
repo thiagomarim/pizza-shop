@@ -24,12 +24,12 @@ export function SignIn() {
   function handleSignIn(data: signInForm) {
     console.log(data)
 
-    toast.success('Enviamos um link de autenticação para o seu email.', {
-      action: {
-        label: 'Reenviar',
-        onClick: () => handleSignIn(data),
-      },
-    })
+    // toast.success('Enviamos um link de autenticação para o seu email.', {
+    //   action: {
+    //     label: 'Reenviar',
+    //     onClick: () => handleSignIn(data),
+    //   },
+    // })
   }
 
   return (
@@ -58,7 +58,7 @@ export function SignIn() {
             </div>
 
             <Button disabled={isSubmitting} className="w-full" type="submit">
-              Acessar painel
+              <Link to={'/'}>Acessar painel</Link>
             </Button>
           </form>
         </div>
