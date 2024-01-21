@@ -26,7 +26,7 @@ Clone esse projeto e acesse os arquivos.
 ```bash
 git clone https://github.com/thiagomarim/pizza-shop.git
 
-cd izza-shop
+cd pizza-shop
 
 ```
 
